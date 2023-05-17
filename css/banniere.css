@@ -1,0 +1,17 @@
+.banniere {
+    display: flex;
+    padding: 0.5em;
+    font-size: 2em;
+    text-align: center;
+    background-color: rgb(168, 168, 201);
+    background-attachment: fixed;
+  }
+  .banniere_left {
+    flex-grow: 1;
+  }
+  .banniere_mid {
+    flex-grow: 1;
+  }
+  .banniere_right {
+    flex-grow: 1;
+  }

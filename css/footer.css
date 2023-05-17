@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    text-align: center;
+    background-color: rgb(168, 168, 201);
+    padding: 0.9em;
+  }
+  .footer_left {
+    flex-grow: 1;
+  }
+  .footer_mid {
+    flex-grow: 1;
+  }
+  .footer_right {
+    flex-grow: 1;
+  }
+  
