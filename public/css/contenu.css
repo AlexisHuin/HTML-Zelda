@@ -16,6 +16,9 @@
   img {
     width: 85%;
     margin: 1.5em;
+    box-shadow: 2px 1px 3px 4px;
+    background-attachment:fixed;
+    
   }
   
   .card_title {
@@ -39,6 +42,9 @@
     margin:1em;
   }
   
+  .card {
+    width: 50%;
+  }
   .contenu_text_card-right {
     flex-grow: 1;
     width: 40%;
