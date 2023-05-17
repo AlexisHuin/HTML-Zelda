@@ -1,42 +1,15 @@
-<!DOCTYPE html>
-<html lang="fr">
+<%- include('partials/header'); -%>
 
-<head>
-    <link rel="stylesheet" href="../css/css.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legend Of Zelda</title>
-</head>
-
-<body>
-
-    <div class="banniere">
-        <div class="banniere_left">Legend</div>
-        <div class="banniere_mid">Of</div>
-        <div class="banniere_right">Zelda</div>
-    </div>
-
-    <div class="header">
-        <div class="img_header">
-            <p><a class="nav_header" href="./index.html">Accueil</a></p>
-            <p><a class="nav_header" href="./link.html">Link</a></p>
-            <p><a class="nav_header" href="./zelda.html">Zelda</a></p>
-            <p><a class="nav_header" href="./ganondorf.html">Ganondorf</a></p>
-            <p><a class="nav_header" href="./hyrule.html">Hyrule</a></p>  
-
-        </div>
-    </div>
 
     <div class="contenu">
-        <div class="card_left">
+         <div class="card_left">
             <img src="https://www.screenhacker.com/screensite/wp-content/uploads/2022/10/1665216259_1280x720.jpg"
                 alt="Link" class="card">
             <div class="card_block">
                 <p class="card_title"><a href="./link.html">Link</a></p>
                 <p class="card_title">Héros Du Temps</p>
             </div>
-        </div>
+        </div> 
 
         <div class="card_mid">
             <img src="https://cdn.mos.cms.futurecdn.net/7BuhEPPFpJ4hHiVSFEhWYM-1200-80.jpg" alt="Zelda" class="card">
@@ -77,11 +50,4 @@
             </div>
         </div>
     
-        <div class="footer">
-            <div class="footer_left">Nous contactez</div>
-            <div class="footer_mid">Dernières infos</div>
-            <div class="footer_right">2023</div>
-        </div>
-</body>
-
-</html>
+        <%- include('partials/footer'); -%>
