@@ -14,8 +14,6 @@ app
     res.render("index", {
       title: "Legend Of Zelda",
       titlebanniere: "Legend Of Zelda",
-      linkcard:
-        "https://www.screenhacker.com/screensite/wp-content/uploads/2022/10/1665216259_1280x720.jpg",
       namecard: "Link",
       pathcard: "/index",
     })
@@ -25,7 +23,7 @@ app
       title: "Link",
       titlebanniere: "Link, héros du temps",
       linkcard:
-        "https://www.screenhacker.com/screensite/wp-content/uploads/2022/10/1665216259_1280x720.jpg",
+        "./img/link.jpg",
       namecard: "Link",
       pathcard: "/link",
     });
@@ -35,7 +33,7 @@ app
       title: "Ganondorf",
       titlebanniere: "Ganondorf, roi démon",
       linkcard:
-        "https://images.nintendolife.com/f8809ea6e3732/ganondorf-totk.large.jpg",
+        "./img/ganondorf.webp",
       namecard: "Ganondorf",
       pathcard: "/ganondorf",
     });
@@ -45,7 +43,7 @@ app
       title: "Zelda",
       titlebanniere: "Princesse Zelda",
       linkcard:
-        "https://cdn.mos.cms.futurecdn.net/7BuhEPPFpJ4hHiVSFEhWYM-1200-80.jpg",
+        "./img/Zelda.jpg",
       namecard: "Zelda",
       pathcard: "/zelda",
     });
@@ -55,7 +53,7 @@ app
       title: "Hyrule",
       titlebanniere: "Le monde d'Hyrule",
       linkcard:
-        "https://i1.sndcdn.com/artworks-f9YWHdeOvZAEZJrb-s49y4g-t500x500.jpg",
+        "./img/Hyrule.jpg",
       namecard: "Hyrule",
       pathcard: "/hyrule",
     });

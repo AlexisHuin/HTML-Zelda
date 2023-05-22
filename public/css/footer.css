@@ -3,6 +3,7 @@
     text-align: center;
     background-color: rgb(168, 168, 201);
     padding: 0.9em;
+    width: 100%;
   }
   .footer_left {
     flex-grow: 1;
